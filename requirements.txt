@@ -1,0 +1,6 @@
+pandas 
+pageindex
+python-dotenv
+groq
+requests
+pypdf
