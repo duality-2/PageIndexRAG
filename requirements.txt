@@ -5,6 +5,7 @@ groq
 requests
 pypdf
 pypdfium2
+lang
 
 # PageIndex Dependencies
 litellm==1.84.0
