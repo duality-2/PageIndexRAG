@@ -5,7 +5,10 @@ groq
 requests
 pypdf
 pypdfium2
-lang
+langchain-community>=0.4.2
+langchain-nvidia-ai-endpoints>=1.4.3
+ragas>=0.4.3
+langchain-google-vertexai
 
 # PageIndex Dependencies
 litellm==1.84.0

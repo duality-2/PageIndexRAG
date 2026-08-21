@@ -1,0 +1,814 @@
+[
+  {
+    "question": "What is the secondary source of observed weather index referred to as in the policy?",
+    "answer": "The secondary source of observed weather index referred to as in the policy is called the \"Backup data source/ Weather Station\".\n\nThis source is used as a substitute for the missing weather data from the reference data source/weather station. It is an independent third-party data agency that provides data from physical weather stations, satellite/atmospheric observations, or a combination of these.\n\nThe Backup data source/ Weather Station is used to record various weather parameters or modelled weather index, which is then used to assess the compensation as stated in the Policy Schedule.\n\nBottom line: The Backup data source/ Weather Station is the secondary source of observed weather index used in the policy.",
+    "ground_truth": "The secondary source of observed weather index is referred to as the 'Backup data source/ Weather Station'.",
+    "n_contexts": 2,
+    "faithfulness": 0.75,
+    "answer_relevancy": 1.0,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 0.75,
+        "reasoning": "claim 1: The secondary source of observed weather index referred to as in the policy is called the \"Backup data source/ Weather Station\". supported because it is directly stated in the policy (1.1. \"Backup data source/ Weather Station\" means the secondary source of observed weather index...). claim 2: This source is used as a substitute for the missing weather data from the reference data source/weather station. supported because it is directly stated in the policy (1.1. ...of which the weather/ atmospheric/ satellite based/ modelled observations data shall act as a substitute for the missing weather data, if any, of the reference data source/ weather station). claim 3: It is an independent third-party data agency that provides data from physical weather stations, satellite/atmospheric observations, or a combination of these. not supported because the policy does not explicitly state that the Backup data source/ Weather Station is an independent third-party data agency, although it does describe the Data Provider as such (1.6. \"Data Provider\" means an independent third-party data agency...). claim 4: The Backup data source/ Weather Station is used to record various weather parameters or modelled weather index, which is then used to assess the compensation as stated in the Policy Schedule. supported because it is directly stated in the policy (1.1. ...the weather/ atmospheric/ satellite based/ modelled observations data...)."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by clearly stating the secondary source of observed weather index referred to in the policy as the 'Backup data source/ Weather Station', and provides additional relevant information about its purpose and functionality without adding any off-topic content."
+      },
+      "context_precision": {
+        "score": 1.0,
+        "reasoning": "Chunk 1: relevant because it explicitly defines 'Backup data source/ Weather Station' as the secondary source of observed weather index, which directly answers the question. Chunk 2: not relevant because it does not mention the secondary source of observed weather index."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "reasoning": "Key point 1: 'secondary source of observed weather index' is found in context as 'Backup data source/ Weather Station' in definition 1.1."
+      }
+    }
+  },
+  {
+    "question": "What is included in the definition of a Launch Vehicle?",
+    "answer": "A launch vehicle is not explicitly defined in the given context, but it is mentioned as an \"Aviation Product\" in the exclusions section of the policy.\n\nThe policy mentions \"Aviation Product\" in the exclusions section, which includes:\n\n- (A) legal liability arising from the handling or use of any Aviation Product Owned by or loaned to the Insured\n- (D) legal liability for the cost or expense of the Insured for the inspection, repair, alteration, modification, replacement of or for work completed by or on behalf of the Insured to an Aviation Product or any property of which it forms part\n\nHowever, the policy does not provide a specific definition of a launch vehicle.\n\nBottom line: A launch vehicle is not explicitly defined in the given context, but it is referred to as an \"Aviation Product\" in the exclusions section of the policy.",
+    "ground_truth": "A Launch Vehicle includes any vehicle, including parts detached en route, designed, constructed or intended to place into space or into orbit any Space Vehicle or Satellite, and shall include both manned and unmanned vehicles.",
+    "n_contexts": 2,
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.4,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 0.0,
+        "reasoning": "claim 1: A launch vehicle is not explicitly defined in the given context - not supported because the context does not mention launch vehicles at all; claim 2: The policy mentions 'Aviation Product' in the exclusions section - supported; claim 3: A launch vehicle is referred to as an 'Aviation Product' in the exclusions section of the policy - not supported because the context does not mention launch vehicles at all; claim 4: The policy does not provide a specific definition of a launch vehicle - supported; claim 5: A launch vehicle is not explicitly defined in the given context, but it is referred to as an 'Aviation Product' in the exclusions section of the policy - not supported because the context does not mention launch vehicles at all"
+      },
+      "answer_relevancy": {
+        "score": 0.4,
+        "reasoning": "The answer is vaguely related to the question as it mentions the term 'launch vehicle' and its association with 'Aviation Product', but it does not provide a clear definition of what is included in the definition of a launch vehicle, which is the main query. The answer mostly focuses on the policy context and exclusions, rather than directly addressing the question."
+      },
+      "context_precision": {
+        "score": 0.0,
+        "reasoning": "Chunk 1: not relevant because it does not contain the definition of a Launch Vehicle. Chunk 2: not relevant because it is identical to Chunk 1 and does not contain the definition of a Launch Vehicle."
+      },
+      "context_recall": {
+        "score": 0.0,
+        "reasoning": "Key point 1: A Launch Vehicle includes any vehicle - not found in context. Key point 2: parts detached en route - not found in context. Key point 3: designed, constructed or intended to place into space or into orbit any Space Vehicle or Satellite - not found in context. Key point 4: includes both manned and unmanned vehicles - not found in context."
+      }
+    }
+  },
+  {
+    "question": "What is the IRDA of India Registration Number of the insurance company?",
+    "answer": "The IRDA of India Registration Number of the insurance company is IRDAN108RP0001V02201112.\n\nThis number is mentioned twice in the provided policy wordings, once on page 5 and again on page 6, indicating that it is the unique identifier for the insurance company's registration with the Insurance Regulatory and Development Authority (IRDA) of India.\n\nBottom line: The IRDA of India Registration Number of the insurance company is IRDAN108RP0001V02201112.",
+    "ground_truth": "The IRDA of India Registration Number is 108.",
+    "n_contexts": 2,
+    "faithfulness": 1.0,
+    "answer_relevancy": 1.0,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 1.0,
+        "reasoning": "claim 1: The IRDA of India Registration Number of the insurance company is IRDAN108RP0001V02201112: supported because it is mentioned in the Retrieved Context on page 5 and page 6, claim 2: This number is mentioned twice in the provided policy wordings: supported because it is indeed mentioned on page 5 and page 6, claim 3: The IRDA of India Registration Number of the insurance company is the unique identifier for the insurance company's registration with the Insurance Regulatory and Development Authority (IRDA) of India: supported because it is implied by the context that the UIN is a unique identifier for the insurance company's registration."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by providing the IRDA of India Registration Number of the insurance company, which is the exact information requested. The additional context about the number being mentioned in the policy wordings and its significance as a unique identifier is relevant and supports the answer, but the core information is clearly and concisely provided."
+      },
+      "context_precision": {
+        "score": 1.0,
+        "reasoning": "Chunk 1: relevant because it contains the IRDA of India Registration Number 'IRDAN108RP0001V02201112' which implies the registration number is 108. Chunk 2: relevant because it also contains the same IRDA of India Registration Number 'IRDAN108RP0001V02201112'."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "reasoning": "Key point 1: IRDA of India Registration Number is 108: found in context as part of the UIN: IRDAN108RP0001V02201112"
+      }
+    }
+  },
+  {
+    "question": "What is the process for assessing the market value of an animal to be insured?",
+    "answer": "The process for assessing the market value of an animal to be insured is not explicitly mentioned in the provided context.\n\nHowever, based on the information given, it can be inferred that the market value of an animal is likely to be determined by the Insured, as the Policy mentions that the Insured is responsible for declaring the value of the animal in the Schedule. \n\nThe Schedule is a document that outlines the details of the policy, including the insured amount, which is the amount that the Company will pay in the event of a claim. The Insured is required to declare the value of the animal, which is likely to be the market value of the animal at the time of the policy's inception.\n\nThe Company's liability to pay a claim is the amount in excess of the deductible, which is the amount that the Insured is required to pay before the Company will pay the remaining amount.\n\nBottom line: The market value of an animal to be insured is likely to be declared by the Insured in the Schedule, and the Company's liability to pay a claim is the amount in excess of the deductible.",
+    "ground_truth": "The market Value of the animal to be insured will be assessed and agreed jointly by the Insurer and the policyholder.",
+    "n_contexts": 1,
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.4,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 0.0,
+        "reasoning": "claim 1: The process for assessing the market value of an animal to be insured is not explicitly mentioned in the provided context. - not supported because the answer should have stopped here and not made further inferences. claim 2: The market value of an animal is likely to be determined by the Insured - not supported because the context does not mention how the market value is determined. claim 3: The Insured is responsible for declaring the value of the animal in the Schedule - not supported because the context does not mention the Insured declaring the value of the animal. claim 4: The Company's liability to pay a claim is the amount in excess of the deductible - supported but not relevant to the question about market value. claim 5: The market value of an animal to be insured is likely to be declared by the Insured in the Schedule - not supported because the context does not mention the Insured declaring the value of the animal. claim 6: The Company's liability to pay a claim is the amount in excess of the deductible - supported but not relevant to the question about market value."
+      },
+      "answer_relevancy": {
+        "score": 0.4,
+        "reasoning": "The answer is vaguely related to the question as it discusses the process of declaring the value of an animal in an insurance policy, but it does not directly address the process of assessing the market value of an animal to be insured. The answer makes an inference about the Insured declaring the value, but it does not provide a clear explanation of how the market value is determined, which is the main focus of the question."
+      },
+      "context_precision": {
+        "score": 0.0,
+        "reasoning": "Chunk 1: not relevant because it does not mention the process for assessing the market value of an animal to be insured. It appears to be a general policy document that defines various terms and conditions, but does not provide information on how the market value of an animal is determined."
+      },
+      "context_recall": {
+        "score": 0.0,
+        "reasoning": "Key point 1: The market value of the animal to be insured will be assessed - not found in context. Key point 2: The market value will be agreed jointly by the Insurer and the policyholder - not found in context."
+      }
+    }
+  },
+  {
+    "question": "What type of equipment is specified in the Insured Assets or Equipment Schedule?",
+    "answer": "The Insured Assets or Equipment Schedule is a part of the policy that lists the specific equipment that is covered under the insurance.\n\nThe equipment specified in the Insured Assets or Equipment Schedule includes:\n\n- Handheld electronic products\n- Handling equipment (such as machinery, parts, and tools)\n- Plant, tools, or materials for the maintenance or repair of handling equipment\n- Anything specified as handling equipment in the Assets or Equipment Schedule\n\nThe Insured Assets or Equipment Schedule is also mentioned in the definition of \"Insured equipment\" which includes equipment specified in the Insured Assets or Equipment Schedule.\n\nBottom line: The Insured Assets or Equipment Schedule lists the specific equipment that is covered under the insurance, including handheld electronic products, handling equipment, and more.",
+    "ground_truth": "The equipment specified in the Insured Assets or Equipment Schedule is not explicitly stated in the provided text, but it is mentioned that the insured (carrying/handling) equipment is included.",
+    "n_contexts": 2,
+    "faithfulness": 0.8,
+    "answer_relevancy": 1.0,
+    "context_precision": 1.0,
+    "context_recall": 0.5,
+    "reasoning": {
+      "faithfulness": {
+        "score": 0.8,
+        "reasoning": "claim 1: The Insured Assets or Equipment Schedule is a part of the policy that lists the specific equipment that is covered under the insurance. supported because it is mentioned in the context as 'that part of your certificate which lists insured carrying or handling equipment'. claim 2: The equipment specified in the Insured Assets or Equipment Schedule includes: - Handheld electronic products - Handling equipment (such as machinery, parts, and tools) - Plant, tools, or materials for the maintenance or repair of handling equipment - Anything specified as handling equipment in the Assets or Equipment Schedule. supported because these are mentioned in the context as examples of handling equipment. claim 3: The Insured Assets or Equipment Schedule is also mentioned in the definition of 'Insured equipment' which includes equipment specified in the Insured Assets or Equipment Schedule. supported because it is mentioned in the context as 'equipment specified in your Insured Assets or Equipment Schedule'. claim 4: The Insured Assets or Equipment Schedule lists the specific equipment that is covered under the insurance, including handheld electronic products, handling equipment, and more. not supported because the phrase 'and more' is not present in the context."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by listing the specific types of equipment specified in the Insured Assets or Equipment Schedule, including handheld electronic products, handling equipment, and more. The answer is clear, concise, and provides all the necessary information to fully answer the question."
+      },
+      "context_precision": {
+        "score": 1.0,
+        "reasoning": "Chunk 1: relevant because it defines handling equipment, which is related to the equipment specified in the Insured Assets or Equipment Schedule. Chunk 2: relevant because it explicitly mentions the Insured Assets or Equipment Schedule and the insured (carrying/handling) equipment."
+      },
+      "context_recall": {
+        "score": 0.5,
+        "reasoning": "Key point 1: The equipment specified in the Insured Assets or Equipment Schedule is not explicitly stated - not found in context. Key point 2: The insured (carrying/handling) equipment is included - found in context."
+      }
+    }
+  },
+  {
+    "question": "What is the process for destruction of the insured animal to be eligible for compensation?",
+    "answer": "Summary: The provided context does not explicitly mention the process for destruction of the insured animal to be eligible for compensation, but it does mention the conditions under which the company will make payments.\n\nThe policy wording does not directly address the process for destruction of the insured animal, but it does mention the conditions under which the company will make payments. \n\n- The company's liability to make payments is the amount in excess of the deductible (point 9).\n- The policy mentions that the company will make payments for certain events such as accidents, natural calamities, and famine (points 1, 15, and 11).\n- However, it does not provide a clear process for destruction of the insured animal.\n\nBottom line: The policy wording does not explicitly mention the process for destruction of the insured animal to be eligible for compensation.",
+    "ground_truth": "The destruction of the insured animal must be done by a Veterinary Doctor appointed by the Company or by order of a lawfully constituted authority.",
+    "n_contexts": 1,
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.4,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 0.5,
+        "reasoning": "claim 1: The company's liability to make payments is the amount in excess of the deductible: supported because it is mentioned in point 9 of the Retrieved Context. claim 2: The policy mentions that the company will make payments for certain events such as accidents, natural calamities, and famine: supported because it is mentioned in points 1, 15, and 11 of the Retrieved Context. claim 3: The policy wording does not explicitly mention the process for destruction of the insured animal to be eligible for compensation: not supported because it is an inference and not a direct quote from the Retrieved Context. claim 4: The policy wording does not directly address the process for destruction of the insured animal: not supported because it is an inference and not a direct quote from the Retrieved Context. claim 5: The provided context does not explicitly mention the process for destruction of the insured animal to be eligible for compensation: not supported because it is an inference and not a direct quote from the Retrieved Context."
+      },
+      "answer_relevancy": {
+        "score": 0.4,
+        "reasoning": "The answer acknowledges the question but does not provide a clear process for destruction of the insured animal to be eligible for compensation. Instead, it explains what the policy does and does not cover, and reiterates that the process is not explicitly mentioned. The answer is vaguely related to the question but does not really answer it, as it does not provide the requested information."
+      },
+      "context_precision": {
+        "score": 0.0,
+        "reasoning": "Chunk 1: not relevant because it only contains the policy wording preamble and definitions, but does not mention the process for destruction of the insured animal to be eligible for compensation."
+      },
+      "context_recall": {
+        "score": 0.0,
+        "reasoning": "Key point 1: Destruction of the insured animal must be done by a Veterinary Doctor appointed by the Company - not found in context. Key point 2: Destruction of the insured animal can also be done by order of a lawfully constituted authority - not found in context."
+      }
+    }
+  },
+  {
+    "question": "What types of damage are excluded from coverage under the 'Subsidence of the land' clause?",
+    "answer": "Summary: The 'Subsidence of the land' clause in the TATA AIG Bharat Griha Raksha Policy excludes certain types of damage from coverage.\n\nThe 'Subsidence of the land' clause excludes damage caused by:\n\n- Mining or excavation\n- Underground construction or demolition\n- Any other similar activity\n- Any activity that causes the land to sink or settle\n\nBottom line: If the damage to your home is caused by mining, excavation, underground construction, demolition, or any other activity that causes the land to sink or settle, it is not covered under the 'Subsidence of the land' clause.",
+    "ground_truth": "Normal cracking, settlement or bedding down of new structures, a. The settlement or movement of made up ground, b. Coastal or river erosion, c. Defective design or workmanship or use of defective materials.",
+    "n_contexts": 2,
+    "faithfulness": 0.0,
+    "answer_relevancy": 1.0,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 0.0,
+        "reasoning": "claim 1: The 'Subsidence of the land' clause in the TATA AIG Bharat Griha Raksha Policy excludes certain types of damage from coverage: not supported because the Retrieved Context does not mention the 'Subsidence of the land' clause. claim 2: The 'Subsidence of the land' clause excludes damage caused by: - Mining or excavation - Underground construction or demolition - Any other similar activity - Any activity that causes the land to sink or settle: not supported because the Retrieved Context does not mention the 'Subsidence of the land' clause or any exclusions related to it. claim 3: If the damage to your home is caused by mining, excavation, underground construction, demolition, or any other activity that causes the land to sink or settle, it is not covered under the 'Subsidence of the land' clause: not supported because the Retrieved Context does not mention the 'Subsidence of the land' clause or any exclusions related to it."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by clearly listing the types of damage excluded from coverage under the 'Subsidence of the land' clause, providing a concise and relevant explanation that fully answers the question."
+      },
+      "context_precision": {
+        "score": 0.0,
+        "reasoning": "Chunk 1: not relevant because it does not mention the 'Subsidence of the land' clause or any exclusions related to it. It appears to be a general introduction to the policy document. Chunk 2: not relevant because it discusses changes to covers, waiver of underinsurance, and other details, but does not mention the 'Subsidence of the land' clause or its exclusions."
+      },
+      "context_recall": {
+        "score": 0.0,
+        "reasoning": "Key point 1: Normal cracking, settlement or bedding down of new structures - not found in context. Key point 2: The settlement or movement of made up ground - not found in context. Key point 3: Coastal or river erosion - not found in context. Key point 4: Defective design or workmanship or use of defective materials - not found in context."
+      }
+    }
+  },
+  {
+    "question": "What is the maximum penalty that a person can be liable for if they make default in complying with the provisions of this section?",
+    "answer": "The maximum penalty that a person can be liable for if they make default in complying with the provisions of this section is ten lakh rupees.\n\nThis penalty is mentioned in Section 41 of The Insurance Act 1938 as amended by Insurance laws (amendment) Act, 2015, which prohibits rebates of commission or premium on insurance policies.\n\nThe section states that any person making default in complying with the provisions of this section shall be liable for a penalty which may extend to ten lakh rupees.\n\nBottom line: If you make default in complying with the insurance regulations, you can be liable for a penalty of up to ten lakh rupees.",
+    "ground_truth": "The maximum penalty that a person can be liable for is ten lakh rupees.",
+    "n_contexts": 2,
+    "faithfulness": 1.0,
+    "answer_relevancy": 1.0,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 1.0,
+        "reasoning": "claim 1: The maximum penalty that a person can be liable for if they make default in complying with the provisions of this section is ten lakh rupees: supported because it is mentioned in the Retrieved Context that 'Any person making default in complying with the provisions of this section shall be liable for penalty which may extend to ten lakh rupees.' claim 2: This penalty is mentioned in Section 41 of The Insurance Act 1938 as amended by Insurance laws (amendment) Act, 2015, which prohibits rebates of commission or premium on insurance policies: supported because the Retrieved Context mentions 'Section 41 of The Insurance Act 1938 as amended by Insurance laws (amendment) Act, 2015' and describes the prohibition of rebates. claim 3: The section states that any person making default in complying with the provisions of this section shall be liable for a penalty which may extend to ten lakh rupees: supported because it is a direct quote from the Retrieved Context. claim 4: If you make default in complying with the insurance regulations, you can be liable for a penalty of up to ten lakh rupees: supported because it is a paraphrased version of the information provided in the Retrieved Context."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by providing the maximum penalty amount and referencing the specific section of the act that imposes the penalty, thus fully answering the question."
+      },
+      "context_precision": {
+        "score": 1.0,
+        "reasoning": "Chunk 1: relevant because it contains the exact information required to answer the question, specifically the maximum penalty of ten lakh rupees for making default in complying with the provisions of the section. Chunk 2: not relevant because it does not contain any information related to the maximum penalty for non-compliance with the section."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "reasoning": "Key point 1: The maximum penalty amount is found in the context, specifically 'ten lakh rupees'."
+      }
+    }
+  },
+  {
+    "question": "How is the Overdue Notification Period counted?",
+    "answer": "The Overdue Notification Period is the time frame within which the Insured must notify the Insurer after the earliest of certain events, such as the Insured learning about the Insolvency of the Counterparty or a Commercial credit becoming unpaid.\n\nThe Overdue Notification Period is counted from the earliest of the following events:\n- The Insured learns about the Insolvency of the Counterparty or there is any other reason to believe that a Counterparty is unable or is likely to be unable to perform or comply with its obligations to the Insured under any contract for the sale of goods or rendering of services.\n- Any Commercial credit or part of it is unpaid at the expiry of the Contract's credit periods or the Extended Due Date permitted by the Permitted Maximum Extension Period.\n\nThe Insured must notify the Insurer within the Overdue Notification Period, which is not specified in the given context. However, based on the context, it can be inferred that the Insured must notify the Insurer within a reasonable time frame after the earliest of the above-mentioned events.\n\nBottom line: The Overdue Notification Period is the time frame within which the Insured must notify the Insurer after certain events, but the exact duration of this period is not specified in the given context.",
+    "ground_truth": "The Overdue Notification Period is counted from the due date or the Extended Due Date if the Insured extended the payment period for the Counterparty to the Contract.",
+    "n_contexts": 2,
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.7,
+    "context_precision": 1.0,
+    "context_recall": 0.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 0.75,
+        "reasoning": "claim 1: The Overdue Notification Period is the time frame within which the Insured must notify the Insurer after the earliest of certain events: supported because the Retrieved Context states in 6.2 that the Insured must notify the Insurer no later than Overdue Notification Period after the earliest of any of the following events. claim 2: The Overdue Notification Period is counted from the earliest of the following events: supported because the Retrieved Context states in 6.2 that the Insured must notify the Insurer no later than Overdue Notification Period after the earliest of any of the following events. claim 3: The Insured must notify the Insurer within the Overdue Notification Period, which is not specified in the given context: supported because the Retrieved Context does not specify the duration of the Overdue Notification Period. claim 4: The exact duration of this period is not specified in the given context: supported because the Retrieved Context does not specify the duration of the Overdue Notification Period. claim 5: The Insured must notify the Insurer within a reasonable time frame after the earliest of the above-mentioned events: not supported because the Retrieved Context does not mention a reasonable time frame, it only mentions that the Insured must notify the Insurer no later than Overdue Notification Period."
+      },
+      "answer_relevancy": {
+        "score": 0.7,
+        "reasoning": "The answer provides relevant information about the Overdue Notification Period, explaining the events that trigger the start of the period and the requirement for the Insured to notify the Insurer within a reasonable time frame. However, it does not directly answer the question of how the Overdue Notification Period is counted, as it does not provide a clear duration or method of calculation, instead stating that the exact duration is not specified in the given context."
+      },
+      "context_precision": {
+        "score": 1.0,
+        "reasoning": "Chunk 1: not relevant because it does not mention the Overdue Notification Period or its counting method. Chunk 2: relevant because it mentions the Overdue Notification Period and its relation to the due date or the Extended Due Date, which aligns with the ground truth answer."
+      },
+      "context_recall": {
+        "score": 0.0,
+        "reasoning": "Key point 1: The Overdue Notification Period is counted from the due date - not found in context. Key point 2: The Overdue Notification Period is counted from the Extended Due Date if the Insured extended the payment period for the Counterparty to the Contract - not found in context."
+      }
+    }
+  },
+  {
+    "question": "What type of vehicle will be arranged for the continuation or return journey if a 'C' Class vehicle is not available?",
+    "answer": "Summary: The policy outlines various services for commercial vehicle owners in case of breakdown, including towing assistance, repair, and load transfer, but it does not explicitly state what type of vehicle will be arranged for the continuation or return journey if a 'C' Class vehicle is not available.\n\nThe policy mentions that in case of breakdown, a suitable alternate vehicle will be arranged for the insured, and the vehicle will be of the same class (or lower) depending on availability. However, it does not specify what type of vehicle will be arranged if a 'C' Class vehicle is not available.\n\nThe policy does not provide a clear answer to this question, and it seems that the type of vehicle to be arranged in such a situation is not explicitly stated.\n\nBottom line: The policy does not provide a clear answer to what type of vehicle will be arranged for the continuation or return journey if a 'C' Class vehicle is not available.",
+    "ground_truth": "In case the 'C' Class vehicle is not available, the next best class of vehicle available will be provided.",
+    "n_contexts": 2,
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.4,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 0.5,
+        "reasoning": "claim 1: The policy outlines various services for commercial vehicle owners in case of breakdown, including towing assistance, repair, and load transfer - supported because the Retrieved Context mentions these services. claim 2: The policy does not explicitly state what type of vehicle will be arranged for the continuation or return journey if a 'C' Class vehicle is not available - supported because the Retrieved Context does not mention this information. claim 3: The policy mentions that in case of breakdown, a suitable alternate vehicle will be arranged for the insured, and the vehicle will be of the same class (or lower) depending on availability - supported because the Retrieved Context mentions this information. claim 4: The policy does not provide a clear answer to what type of vehicle will be arranged for the continuation or return journey if a 'C' Class vehicle is not available - not supported because this is an inference and not a direct statement from the Retrieved Context. claim 5: The type of vehicle to be arranged in such a situation is not explicitly stated - supported because the Retrieved Context does not mention this information. claim 6: The policy does not provide a clear answer to this question - not supported because this is an inference and not a direct statement from the Retrieved Context."
+      },
+      "answer_relevancy": {
+        "score": 0.4,
+        "reasoning": "The answer is vaguely related to the question as it discusses the policy's general provisions for arranging alternate vehicles in case of breakdown, but it does not directly answer the question about the specific type of vehicle that will be arranged if a 'C' Class vehicle is not available. The answer essentially states that the policy does not provide a clear answer to the question, which makes it incomplete and not fully relevant."
+      },
+      "context_precision": {
+        "score": 1.0,
+        "reasoning": "Chunk 1: relevant because it mentions that in case of breakdown, the service provider will arrange a suitable alternate vehicle for the insured, and the vehicle shall be of the same class (or lower as may be available) depending on availability, which is similar to the ground truth answer that the next best class of vehicle available will be provided if the 'C' Class vehicle is not available. Chunk 2: relevant because it also mentions the arrangement of an alternate vehicle in case of breakdown, although it does not explicitly state the class of the vehicle, it is still related to the topic of vehicle arrangement."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "reasoning": "Key point 1: 'C' Class vehicle not available - found in context (implied by 'same class (or lower as may be available)'). Key point 2: Next best class of vehicle available will be provided - found in context ('same class (or lower as may be available)')."
+      }
+    }
+  },
+  {
+    "question": "What is the condition under which the suspension of the Assistance Company's services will not constitute a breach of contract?",
+    "answer": "The Assistance Company's services will not be considered a breach of contract if they are suspended due to the policyholder's non-payment of any Non-Medical Expenses or if the policyholder is an individual traveling on an immigrant visa beyond 120 days.\n\nThe policy clearly states that the Assistance Company will not be responsible for any services arranged on behalf of the policyholder if the policyholder is not entitled to the benefits of the policy or if they have not provided the necessary financial guarantees.\n\nIn other words, the Assistance Company's services will be suspended if the policyholder has not paid their Non-Medical Expenses or if they are traveling on an immigrant visa beyond 120 days.\n\nBottom line: The Assistance Company's services will not be considered a breach of contract if they are suspended due to non-payment of Non-Medical Expenses or if the policyholder is an individual traveling on an immigrant visa beyond 120 days.",
+    "ground_truth": "The suspension, curtailment, or limited performance of the Assistance Company's services shall not constitute a breach of contract.",
+    "n_contexts": 2,
+    "faithfulness": 0.5,
+    "answer_relevancy": 1.0,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 0.5,
+        "reasoning": "claim 1: The Assistance Company's services will not be considered a breach of contract if they are suspended due to the policyholder's non-payment of any Non-Medical Expenses: not supported because the Retrieved Context does not explicitly state that non-payment of Non-Medical Expenses is a condition for suspension of services without breach of contract. claim 2: The Assistance Company's services will not be considered a breach of contract if they are suspended if the policyholder is an individual traveling on an immigrant visa beyond 120 days: supported because the Retrieved Context states that the Assistance Company will not provide services to individuals traveling on immigrant visa beyond 120 Days. claim 3: The policy clearly states that the Assistance Company will not be responsible for any services arranged on behalf of the policyholder if the policyholder is not entitled to the benefits of the policy or if they have not provided the necessary financial guarantees: not supported because the Retrieved Context does not explicitly state that this is a condition for suspension of services without breach of contract. claim 4: The Assistance Company's services will be suspended if the policyholder has not paid their Non-Medical Expenses or if they are traveling on an immigrant visa beyond 120 days: not supported because the Retrieved Context does not explicitly state that non-payment of Non-Medical Expenses is a condition for suspension of services without breach of contract."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by clearly stating the conditions under which the suspension of the Assistance Company's services will not constitute a breach of contract, specifically mentioning non-payment of Non-Medical Expenses and policyholders traveling on an immigrant visa beyond 120 days. The answer is concise, relevant, and fully addresses the question without adding off-topic content."
+      },
+      "context_precision": {
+        "score": 0.0,
+        "reasoning": "Chunk 1: not relevant because it does not mention the condition under which the suspension of the Assistance Company's services will not constitute a breach of contract. Chunk 2: not relevant because it does not mention the condition under which the suspension of the Assistance Company's services will not constitute a breach of contract."
+      },
+      "context_recall": {
+        "score": 0.0,
+        "reasoning": "Key point 1: The suspension, curtailment, or limited performance of the Assistance Company's services shall not constitute a breach of contract: not found in context. The Retrieved Context does not contain the necessary information to answer the question."
+      }
+    }
+  },
+  {
+    "question": "What types of assets are excluded from coverage under Insuring Agreement L?",
+    "answer": "Insuring Agreement L is not explicitly mentioned in the provided context, but based on the information given, we can infer that the question is asking about the exclusions under a specific insuring agreement.\n\nSince Insuring Agreement L is not mentioned, we will look at the exclusions under other agreements. However, we can see that the exclusions mentioned in Article IV are not directly related to Insuring Agreement L.\n\nTo answer the question, we need to look at the exclusions mentioned in the policy. However, without a clear reference to Insuring Agreement L, we can only make an educated guess.\n\nBased on the information provided, we can see that the policy excludes coverage for certain types of assets or losses, such as:\n\n* Losses caused by or resulting from nuclear reactions, nuclear radiation, or radioactive contamination\n* Failures to comply with laws and regulations related to environmental or public health or worker safety\n* Actual or threatened release, discharge, escape, or dispersal of environmental contaminants or pollutants\n* Material breach or inaccuracy of any representation, condition, warranty, or covenant made by the Insured\n* Wrongful, dishonest, or criminal acts or omissions of the Insured, the Foreign Enterprise, or their agents\n\nHowever, without a clear reference to Insuring Agreement L, we cannot determine which specific types of assets are excluded from coverage.\n\nBottom line: The policy excludes coverage for certain types of losses, but without a clear reference to Insuring Agreement L, we cannot determine which specific types of assets are excluded from coverage.",
+    "ground_truth": "Assets during loading, transit, or unloading from ocean-going vessels or from aircraft, or while under the protection of cargo or any other more specific insurance.",
+    "n_contexts": 2,
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.4,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 0.0,
+        "reasoning": "Parse error: No JSON object found | Raw: {\"score\": 0.5, \"reasoning\": \"claim 1: Insuring Agreement L is not explicitly mentioned in the provid"
+      },
+      "answer_relevancy": {
+        "score": 0.4,
+        "reasoning": "The answer is vaguely related to the question as it discusses exclusions under a policy, but it does not directly address the question about Insuring Agreement L due to the lack of explicit information. The answer provides some general information about exclusions, but it does not provide a clear answer to the question, making it only vaguely related."
+      },
+      "context_precision": {
+        "score": 0.0,
+        "reasoning": "Chunk 1: not relevant because it describes exclusions under the policy, but does not specifically mention Insuring Agreement L or the types of assets excluded from coverage. Chunk 2: not relevant because it defines terms used in the policy, but does not provide information about exclusions or Insuring Agreement L."
+      },
+      "context_recall": {
+        "score": 0.0,
+        "reasoning": "Key point 1: Assets during loading, transit, or unloading from ocean-going vessels or from aircraft - not found in context. Key point 2: Assets while under the protection of cargo or any other more specific insurance - not found in context."
+      }
+    }
+  },
+  {
+    "question": "What is the maximum age for a dependent child to be eligible for coverage in subsequent renewals?",
+    "answer": "The policy does not mention the maximum age for a dependent child to be eligible for coverage in subsequent renewals.\n\nThe provided context is about the claim process, including notification, documents to be submitted, co-payment, and claim settlement. It does not contain any information about the age limit for dependent children.\n\nBottom line: The policy does not specify the maximum age for a dependent child to be eligible for coverage in subsequent renewals.",
+    "ground_truth": "The maximum age for a dependent child to be eligible for coverage in subsequent renewals is 25 years.",
+    "n_contexts": 2,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 1.0,
+        "reasoning": "claim 1: The policy does not mention the maximum age for a dependent child to be eligible for coverage in subsequent renewals: supported because the context does not contain any information about the age limit for dependent children. claim 2: The provided context is about the claim process, including notification, documents to be submitted, co-payment, and claim settlement: supported because the context indeed discusses these topics. claim 3: It does not contain any information about the age limit for dependent children: supported because the context does not mention the age limit for dependent children."
+      },
+      "answer_relevancy": {
+        "score": 0.4,
+        "reasoning": "The answer acknowledges the question and attempts to address it, but ultimately concludes that the requested information is not available in the provided context. It does not provide a direct answer to the question, instead stating that the policy does not specify the maximum age for a dependent child to be eligible for coverage in subsequent renewals. The answer is vaguely related to the question but does not really answer it."
+      },
+      "context_precision": {
+        "score": 0.0,
+        "reasoning": "Chunk 1: not relevant because it discusses the notification of claim, documents to be submitted, co-payment, and claim settlement, but does not mention the maximum age for a dependent child to be eligible for coverage. Chunk 2: not relevant because it is a duplicate of Chunk 1 and does not provide any information about the maximum age for a dependent child to be eligible for coverage."
+      },
+      "context_recall": {
+        "score": 0.0,
+        "reasoning": "Key point 1: Maximum age for a dependent child to be eligible for coverage in subsequent renewals is 25 years: not found in context. The context does not mention the age limit for dependent children."
+      }
+    }
+  },
+  {
+    "question": "What is the amount of the Credit limit for which the financial guarantee must be valid and enforceable?",
+    "answer": "The financial guarantee must be valid and enforceable for the amount of the Credit Limit specified in the Policy or in the respective Credit Limit decision.\n\nTo understand this, let's break it down:\n\n- The Credit Limit is an amount assigned for each Counterparty within which the Insurer shall be obliged to pay an indemnity in case of the occurrence of an Insured Event (as per definition 16.2).\n- The Insurer's Liability under the Policy for any Counterparty shall not exceed the Credit Limit for that Counterparty (as per section 4.1).\n- The Insurer's Maximum Liability under the Policy shall be specified in the Policy (as per section 4.1).\n\nIn other words, the financial guarantee must be valid and enforceable for the amount of the Credit Limit, which is the maximum amount the Insurer will pay for any Counterparty.\n\nBottom line: The financial guarantee must be valid and enforceable for the amount of the Credit Limit specified in the Policy or in the respective Credit Limit decision.",
+    "ground_truth": "The text does not explicitly state the amount of the Credit limit, so the question cannot be answered from this text alone. However, if we assume the question is asking for a general understanding of the policy, the answer would be: The financial guarantee must be valid and enforceable for the whole amount of the Credit limit, but the specific amount is not provided in the text.",
+    "n_contexts": 2,
+    "faithfulness": 1.0,
+    "answer_relevancy": 1.0,
+    "context_precision": 1.0,
+    "context_recall": 0.5,
+    "reasoning": {
+      "faithfulness": {
+        "score": 1.0,
+        "reasoning": "claim 1: The financial guarantee must be valid and enforceable for the amount of the Credit Limit specified in the Policy or in the respective Credit Limit decision. supported because it is directly stated in section 4.2 of the Retrieved Context that 'The amount of the Credit Limit shall be specified in the Policy or in the respective Credit Limit decision.' claim 2: The Credit Limit is an amount assigned for each Counterparty within which the Insurer shall be obliged to pay an indemnity in case of the occurrence of an Insured Event. supported because it is directly stated in definition 16.2 of the Retrieved Context that '\u201cCredit Limit\u201d is an amount assigned for each Counterparty within which the Insurer shall be obliged to pay an indemnity in case of the occurrence of an Insured Event.' claim 3: The Insurer's Liability under the Policy for any Counterparty shall not exceed the Credit Limit for that Counterparty. supported because it is directly stated in section 4.2 of the Retrieved Context that 'In any event, the Insurer's Liability under the Policy for any Counterparty shall not exceed the Credit Limit for that Counterparty.' claim 4: The Insurer's Maximum Liability under the Policy shall be specified in the Policy. supported because it is directly stated in section 4.2 of the Retrieved Context that 'The Insurer's Maximum Liability under the Policy shall be specified in Policy.'"
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by stating that the financial guarantee must be valid and enforceable for the amount of the Credit Limit specified in the Policy or in the respective Credit Limit decision, and provides relevant context and definitions to support this answer, without adding any off-topic content."
+      },
+      "context_precision": {
+        "score": 1.0,
+        "reasoning": "Chunk 1: relevant because it provides information about the Credit Limit, specifically that the Insurer's Liability under the Policy for any Counterparty shall not exceed the Credit Limit for that Counterparty, and that the amount of the Credit Limit shall be specified in the Policy or in the respective Credit Limit decision. Although it does not provide a specific amount, it is relevant to understanding the general policy regarding Credit Limits. Chunk 2: not relevant because it does not provide any information about the Credit Limit or the financial guarantee."
+      },
+      "context_recall": {
+        "score": 0.5,
+        "reasoning": "Key point 1: The financial guarantee must be valid and enforceable for the whole amount of the Credit limit - not found in context. Key point 2: The specific amount of the Credit limit is not provided in the text - found in context (implied by the text stating 'The amount of the Credit Limit shall be specified in the Policy or in the respective Credit Limit decision')."
+      }
+    }
+  },
+  {
+    "question": "What is the format of the date of birth of the Life Assured?",
+    "answer": "Summary: The format of the date of birth of the Life Assured is not explicitly mentioned in the provided context, but it is mentioned as \"dd/mm/yyyy\" in the Life Assured Details section.\n\nThe date of birth of the Life Assured is mentioned as \"dd/mm/yyyy\" in the Life Assured Details section, but the specific date is not provided.\n\nBottom line: The format of the date of birth of the Life Assured is \"dd/mm/yyyy\".",
+    "ground_truth": "The date of birth of the Life Assured is in the format dd/mm/yyyy.",
+    "n_contexts": 2,
+    "faithfulness": 1.0,
+    "answer_relevancy": 1.0,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 1.0,
+        "reasoning": "claim 1: The format of the date of birth of the Life Assured is not explicitly mentioned in the provided context, but it is mentioned as \"dd/mm/yyyy\" in the Life Assured Details section: supported because it is mentioned in the POLICY SCHEDULE section of the Retrieved Context. claim 2: The date of birth of the Life Assured is mentioned as \"dd/mm/yyyy\" in the Life Assured Details section, but the specific date is not provided: supported because it is mentioned in the POLICY SCHEDULE section of the Retrieved Context. claim 3: The format of the date of birth of the Life Assured is \"dd/mm/yyyy\": supported because it is mentioned in the POLICY SCHEDULE section of the Retrieved Context."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by providing the format of the date of birth of the Life Assured as 'dd/mm/yyyy', which is the specific information requested. The answer is clear and concise, and does not include any off-topic content."
+      },
+      "context_precision": {
+        "score": 1.0,
+        "reasoning": "Chunk 1: relevant because it explicitly mentions the format of the date of birth of the Life Assured as dd/mm/yyyy in the Policy Schedule section. Chunk 2: not relevant because it does not mention the format of the date of birth of the Life Assured."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "reasoning": "Key point 1: The date of birth of the Life Assured is in the format dd/mm/yyyy: found in context."
+      }
+    }
+  },
+  {
+    "question": "What is the phone number of the Office of the Insurance Ombudsman in Hyderabad?",
+    "answer": "The Office of the Insurance Ombudsman in Hyderabad is located at 6-2-46, 1st floor, \"Moin Court\", Lane Opp. Saleem Function Palace, A. C. Guards, Lakdi-Ka-Pool, Hyderabad - 500 004.\n\nThe phone number of the Office of the Insurance Ombudsman in Hyderabad is 040 - 23312122.\n\nBottom line: To contact the Office of the Insurance Ombudsman in Hyderabad, you can call them at 040 - 23312122.",
+    "ground_truth": "The phone number of the Office of the Insurance Ombudsman in Hyderabad is 040 - 23312122.",
+    "n_contexts": 2,
+    "faithfulness": 1.0,
+    "answer_relevancy": 1.0,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 1.0,
+        "reasoning": "claim 1: The Office of the Insurance Ombudsman in Hyderabad is located at 6-2-46, 1st floor, 'Moin Court', Lane Opp. Saleem Function Palace, A. C. Guards, Lakdi-Ka-Pool, Hyderabad - 500 004: supported because it is directly mentioned in the Retrieved Context. claim 2: The phone number of the Office of the Insurance Ombudsman in Hyderabad is 040 - 23312122: supported because it is directly mentioned in the Retrieved Context. claim 3: To contact the Office of the Insurance Ombudsman in Hyderabad, you can call them at 040 - 23312122: supported because it is a logical conclusion based on the provided phone number."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by providing the phone number of the Office of the Insurance Ombudsman in Hyderabad, which is the specific information requested. The additional information about the office's location is relevant context, but the answer clearly states the phone number, making it a complete and direct response to the question."
+      },
+      "context_precision": {
+        "score": 1.0,
+        "reasoning": "Chunk 1: relevant because it contains the phone number of the Office of the Insurance Ombudsman in Hyderabad, which is 040 - 23312122, matching the ground truth answer. Chunk 2: not relevant because it does not contain the phone number of the Office of the Insurance Ombudsman in Hyderabad."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "reasoning": "Key point 1: The phone number of the Office of the Insurance Ombudsman in Hyderabad is found in the context as 040 - 23312122."
+      }
+    }
+  },
+  {
+    "question": "What is the reduced floor space ratio index that is being referred to in the policy text?",
+    "answer": "The policy text does not mention a reduced floor space ratio index, but rather refers to the \"Floor Space Ratio Index (Plot Ratio)\" which is a provision related to the reinstatement of damaged buildings.\n\nThe Floor Space Ratio Index (Plot Ratio) is a provision that applies when a building or structure is damaged to the extent of a total loss or constructive total loss, and the government exercises its statutory powers to enforce changes to the building.\n\nThe provision states that the Insurer's liability will not be increased if the work of reinstatement is carried out on another site or sites, and that the Insurer will not be liable to make any payment beyond the amount that would have been payable under the policy if this provision had not been incorporated.\n\nBottom line: The policy text does not mention a reduced floor space ratio index, but rather refers to the Floor Space Ratio Index (Plot Ratio) as a provision related to the reinstatement of damaged buildings.",
+    "ground_truth": "Unfortunately, the policy text does not specify the reduced floor space ratio index, it only mentions that the actual cost of reinstatement is incurred in accordance with this index and the cost of reinstatement which would have been incurred had it not been applicable.",
+    "n_contexts": 2,
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.7,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 0.5,
+        "reasoning": "claim 1: The policy text does not mention a reduced floor space ratio index - supported because the Retrieved Context does not mention a reduced floor space ratio index. claim 2: The Floor Space Ratio Index (Plot Ratio) is a provision related to the reinstatement of damaged buildings - supported because the Retrieved Context mentions FLOOR SPACE RATIO INDEX (PLOT RATIO) in the context of reinstatement. claim 3: The provision states that the Insurer's liability will not be increased if the work of reinstatement is carried out on another site or sites - not supported because the Retrieved Context mentions this provision in the context of ADDITIONAL EXTRA COST OF REINSTATEMENT, not FLOOR SPACE RATIO INDEX (PLOT RATIO). claim 4: The Insurer will not be liable to make any payment beyond the amount that would have been payable under the policy if this provision had not been incorporated - not supported because the Retrieved Context mentions this provision in the context of ADDITIONAL EXTRA COST OF REINSTATEMENT, not FLOOR SPACE RATIO INDEX (PLOT RATIO)."
+      },
+      "answer_relevancy": {
+        "score": 0.7,
+        "reasoning": "The answer mostly addresses the question by clarifying that the policy text does not mention a 'reduced floor space ratio index', but rather refers to the 'Floor Space Ratio Index (Plot Ratio)'. However, it does not provide a clear definition or explanation of what the Floor Space Ratio Index (Plot Ratio) is in the context of the policy, which is the main part of the question. The answer also adds some off-topic content by explaining the provision related to the reinstatement of damaged buildings, which is not directly relevant to the question about the reduced floor space ratio index."
+      },
+      "context_precision": {
+        "score": 0.0,
+        "reasoning": "Chunk 1: not relevant because it does not specify the reduced floor space ratio index, it only mentions the floor space ratio index in general terms. Chunk 2: not relevant because it is a duplicate of Chunk 1 and does not provide any additional information about the reduced floor space ratio index."
+      },
+      "context_recall": {
+        "score": 0.0,
+        "reasoning": "Key point 1: The policy text does not specify the reduced floor space ratio index - not found in context. Key point 2: The actual cost of reinstatement is incurred in accordance with this index and the cost of reinstatement which would have been incurred had it not been applicable - not found in context."
+      }
+    }
+  },
+  {
+    "question": "What is the condition under which We pay for Loss of Rent and rent for Alternative Accommodation?",
+    "answer": "We pay for Loss of Rent and rent for Alternative Accommodation when the Insured Property is damaged or destroyed and you are unable to live in it.\n\nBottom line: This condition applies when the Insured Property is damaged or destroyed, and you are unable to live in it.",
+    "ground_truth": "We pay for Loss of Rent and rent for Alternative Accommodation while your Home Building is not fit for living following loss or damage due to an Insured Event.",
+    "n_contexts": 1,
+    "faithfulness": 0.0,
+    "answer_relevancy": 1.0,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 0.0,
+        "reasoning": "claim 1: We pay for Loss of Rent and rent for Alternative Accommodation when the Insured Property is damaged or destroyed and you are unable to live in it: not supported because the Retrieved Context does not mention the condition under which We pay for Loss of Rent and rent for Alternative Accommodation."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by clearly stating the condition under which Loss of Rent and rent for Alternative Accommodation are paid, which is when the Insured Property is damaged or destroyed and the policyholder is unable to live in it. The answer is concise and does not include any off-topic content."
+      },
+      "context_precision": {
+        "score": 0.0,
+        "reasoning": "Chunk 1: not relevant because it does not mention the condition under which Loss of Rent and rent for Alternative Accommodation is paid. It appears to be a general introduction to the policy document, including contact information and policy details."
+      },
+      "context_recall": {
+        "score": 0.0,
+        "reasoning": "Key point 1: We pay for Loss of Rent and rent for Alternative Accommodation - not found in context. Key point 2: condition under which this is paid - not found in context. Key point 3: Home Building is not fit for living - not found in context. Key point 4: following loss or damage due to an Insured Event - not found in context."
+      }
+    }
+  },
+  {
+    "question": "For a policy with a Premium Payment Term (PPT) of 5 years, when will the Special Surrender Value (SSV) become payable?",
+    "answer": "For a policy with a Premium Payment Term (PPT) of 5 years, the Special Surrender Value (SSV) will become payable after the completion of the first policy year, provided at least one full year's premium has been paid.\n\nThe policy document states that for Limited Pay with PPT>=5, the SSV is payable after the completion of the first policy year, provided at least one full year's premium has been paid.\n\nIn this case, since the PPT is 5 years, the SSV will become payable after the completion of the first policy year, which is the same as the policy year.\n\nSo, the SSV will become payable after 1 year.\n\nBottom line: For a policy with a Premium Payment Term (PPT) of 5 years, the Special Surrender Value (SSV) will become payable after 1 year, provided at least one full year's premium has been paid.",
+    "ground_truth": "The Special Surrender Value (SSV) will become payable after completion of first policy year, provided at least 1 full year's Premium has been paid.",
+    "n_contexts": 2,
+    "faithfulness": 1.0,
+    "answer_relevancy": 1.0,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 1.0,
+        "reasoning": "claim 1: For a policy with a Premium Payment Term (PPT) of 5 years, the Special Surrender Value (SSV) will become payable after the completion of the first policy year, provided at least one full year's premium has been paid: supported because the Retrieved Context states 'Limited Pay with PPT>=5 Payable after completion of first policy year, provided at least 1 full years\u2019 Premium has been paid'. claim 2: The policy document states that for Limited Pay with PPT>=5, the SSV is payable after the completion of the first policy year, provided at least one full year's premium has been paid: supported because the Retrieved Context states 'Limited Pay with PPT>=5 Payable after completion of first policy year, provided at least 1 full years\u2019 Premium has been paid'. claim 3: In this case, since the PPT is 5 years, the SSV will become payable after the completion of the first policy year, which is the same as the policy year: supported because it logically follows from the previous claims. claim 4: So, the SSV will become payable after 1 year: supported because it logically follows from the previous claims. claim 5: For a policy with a Premium Payment Term (PPT) of 5 years, the Special Surrender Value (SSV) will become payable after 1 year, provided at least one full year's premium has been paid: supported because it logically follows from the previous claims."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by clearly stating when the Special Surrender Value (SSV) will become payable for a policy with a Premium Payment Term (PPT) of 5 years, and also provides the necessary condition for it to be payable, which is that at least one full year's premium has been paid."
+      },
+      "context_precision": {
+        "score": 1.0,
+        "reasoning": "Chunk 1: relevant because it contains the specific information about when the Special Surrender Value (SSV) becomes payable for a policy with a Premium Payment Term (PPT) of 5 years, which matches the ground truth answer. Chunk 2: relevant because it also contains the same information about when the SSV becomes payable for a policy with a PPT of 5 years, which matches the ground truth answer."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "reasoning": "Key point 1: The Special Surrender Value (SSV) will become payable after completion of first policy year - found in context (Page 22 of 42, Limited Pay with PPT>=5). Key point 2: provided at least 1 full year's Premium has been paid - found in context (Page 22 of 42, Limited Pay with PPT>=5)."
+      }
+    }
+  },
+  {
+    "question": "What is the maximum amount specified in the schedule for the additional coverage under Section I of the policy?",
+    "answer": "The maximum amount specified in the schedule for the additional coverage under Section I of the policy is not explicitly mentioned, but there are some specific limits mentioned for certain situations.\n\nThe policy mentions that the company will bear the reasonable cost of protection and removal to the nearest repairer and re-delivery to the insured, but not exceeding Rs. 750/- for three-wheeled vehicles, Rs. 1500/- for taxis, and Rs. 2500/- for other commercial vehicles in respect of any one accident.\n\nAdditionally, the policy states that the estimated cost of repairs, including replacements, should not exceed Rs. 500/- for the insured to authorize the repair of the vehicle.\n\nBottom line: The policy has specific limits for certain situations, but it does not specify a maximum amount for additional coverage under Section I.",
+    "ground_truth": "The maximum amount is specified in the schedule, but the exact amount is not provided in the given text.",
+    "n_contexts": 2,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 1.0,
+        "reasoning": "claim 1: The policy mentions that the company will bear the reasonable cost of protection and removal to the nearest repairer and re-delivery to the insured, but not exceeding Rs. 750/- for three-wheeled vehicles, Rs. 1500/- for taxis, and Rs. 2500/- for other commercial vehicles in respect of any one accident: supported because it is mentioned in the Retrieved Context (Page 3, point 3). claim 2: The policy states that the estimated cost of repairs, including replacements, should not exceed Rs. 500/- for the insured to authorize the repair of the vehicle: supported because it is mentioned in the Retrieved Context (Page 3, point 4). claim 3: The policy has specific limits for certain situations, but it does not specify a maximum amount for additional coverage under Section I: supported because it is a logical conclusion based on the information provided in the Retrieved Context."
+      },
+      "answer_relevancy": {
+        "score": 0.7,
+        "reasoning": "The answer is mostly relevant as it discusses the policy's limits for certain situations, but it does not directly answer the question about the maximum amount specified in the schedule for the additional coverage under Section I. Instead, it concludes that the policy does not specify a maximum amount for additional coverage under Section I, which is a partial answer. The answer also provides some additional context about the policy's limits, which is relevant but not directly addressing the question."
+      },
+      "context_precision": {
+        "score": 0.0,
+        "reasoning": "Chunk 1: not relevant because it does not provide the maximum amount specified in the schedule for the additional coverage under Section I of the policy. It only describes the coverage and exclusions under Section I. Chunk 2: not relevant because it also does not provide the maximum amount specified in the schedule for the additional coverage under Section I of the policy. It discusses the cost of protection and removal, repair authorization, and the calculation of the Insured\u2019s Declared Value (IDV)."
+      },
+      "context_recall": {
+        "score": 0.0,
+        "reasoning": "Key point 1: The maximum amount is specified in the schedule - not found in context. Key point 2: The exact amount is not provided in the given text - found in context, but the context does not provide the actual amount, which is the main query."
+      }
+    }
+  },
+  {
+    "question": "If a dispute arises under this policy, how long do the parties have to agree on a single arbitrator before the dispute is referred to a panel of three arbitrators?",
+    "answer": "If a dispute arises under this policy, the parties have 30 days to agree on a single arbitrator before the dispute is referred to a panel of three arbitrators.\n\nHere's what you need to know:\n\n- If a dispute arises, the parties must agree on a single arbitrator within 30 days.\n- If they cannot agree on a single arbitrator within 30 days, the dispute will be referred to a panel of three arbitrators.\n- The panel of three arbitrators will consist of two arbitrators, one appointed by each party, and a third arbitrator appointed by the two arbitrators who will act as the presiding arbitrator.\n- The arbitration will be conducted in accordance with the provisions of the Arbitration & Conciliation Act, 1996.\n\nBottom line: If a dispute arises under this policy, the parties have 30 days to agree on a single arbitrator, or the dispute will be referred to a panel of three arbitrators.",
+    "ground_truth": "If they cannot agree upon a single arbitrator within 30 days of any party invoking Arbitration, the same shall be referred to a panel of three arbitrators.",
+    "n_contexts": 2,
+    "faithfulness": 1.0,
+    "answer_relevancy": 1.0,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 1.0,
+        "reasoning": "claim 1: If a dispute arises under this policy, the parties have 30 days to agree on a single arbitrator before the dispute is referred to a panel of three arbitrators: supported because the Retrieved Context states 'if they cannot agree upon a single arbitrator within 30 days of any party invoking Arbitration, the same shall be referred to a panel of three arbitrators'. claim 2: If they cannot agree on a single arbitrator within 30 days, the dispute will be referred to a panel of three arbitrators: supported because the Retrieved Context states 'if they cannot agree upon a single arbitrator within 30 days of any party invoking Arbitration, the same shall be referred to a panel of three arbitrators'. claim 3: The panel of three arbitrators will consist of two arbitrators, one appointed by each party, and a third arbitrator appointed by the two arbitrators who will act as the presiding arbitrator: supported because the Retrieved Context states 'the same shall be referred to a panel of three arbitrators comprising two arbitrators one to be appointed by each of the parties to the dispute/difference, and a third arbitrator to be appointed by such two arbitrators who shall act as the presiding arbitrator'. claim 4: The arbitration will be conducted in accordance with the provisions of the Arbitration & Conciliation Act, 1996: supported because the Retrieved Context states 'the arbitration shall be conducted in accordance with the provisions of the Arbitration & Conciliation Act,1996'. claim 5: If a dispute arises under this policy, the parties have 30 days to agree on a single arbitrator, or the dispute will be referred to a panel of three arbitrators: supported because it is a summary of the supported claims 1 and 2."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by stating the time frame (30 days) for the parties to agree on a single arbitrator before the dispute is referred to a panel of three arbitrators, and also provides additional relevant information about the composition and process of the arbitration panel."
+      },
+      "context_precision": {
+        "score": 1.0,
+        "reasoning": "Chunk 1: not relevant because it does not contain information about the arbitration process or the time frame for agreeing on a single arbitrator. Chunk 2: relevant because it contains the specific information about the arbitration process, including the 30-day time frame for agreeing on a single arbitrator before referring the dispute to a panel of three arbitrators."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "reasoning": "Key point 1: The time frame for parties to agree on a single arbitrator is 30 days - found in context. Key point 2: If parties cannot agree, the dispute is referred to a panel of three arbitrators - found in context."
+      }
+    }
+  },
+  {
+    "question": "What is the maximum number of consecutive days of hospitalisation for which the Sum Insured will be paid under Section 28?",
+    "answer": "The maximum number of consecutive days of hospitalisation for which the Sum Insured will be paid under Section 28 of the policy is 10 days.\n\nThis information is found in Section 28, which states that the policy will pay the Sum Insured for each continuous and completed 24 hours of hospitalisation, up to a maximum of 10 consecutive days of hospitalisation.\n\nThe policy does not specify any conditions or requirements that need to be met in order to receive the full 10 days of coverage, other than the hospitalisation being continuous and completed.\n\nBottom line: The policy will pay the Sum Insured for up to 10 consecutive days of hospitalisation, with each day being a continuous and completed 24 hours.",
+    "ground_truth": "The maximum number of consecutive days of hospitalisation for which the Sum Insured will be paid is 10.",
+    "n_contexts": 2,
+    "faithfulness": 1.0,
+    "answer_relevancy": 1.0,
+    "context_precision": 0.5,
+    "context_recall": 1.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 1.0,
+        "reasoning": "claim 1: The maximum number of consecutive days of hospitalisation for which the Sum Insured will be paid under Section 28 of the policy is 10 days: supported because it is stated in Section 28 that the policy will pay the Sum Insured for each continuous and completed 24 hours of Hospitalisation, if You are admitted in a Hospital due to an Illness and/or Injury for maximum up to 10 consecutive Days of Hospitalisation. claim 2: The policy does not specify any conditions or requirements that need to be met in order to receive the full 10 days of coverage, other than the hospitalisation being continuous and completed: supported because the Retrieved Context does not mention any additional conditions or requirements. claim 3: The policy will pay the Sum Insured for up to 10 consecutive days of hospitalisation, with each day being a continuous and completed 24 hours: supported because it is stated in Section 28 that the policy will pay the Sum Insured for each continuous and completed 24 hours of Hospitalisation, if You are admitted in a Hospital due to an Illness and/or Injury for maximum up to 10 consecutive Days of Hospitalisation."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by providing the specific information requested, stating the maximum number of consecutive days of hospitalisation for which the Sum Insured will be paid under Section 28 as 10 days, and referencing the relevant section of the policy for context."
+      },
+      "context_precision": {
+        "score": 0.5,
+        "reasoning": "Chunk 1: not relevant because it does not contain information about the maximum number of consecutive days of hospitalisation for which the Sum Insured will be paid under Section 28. Chunk 2: relevant because it contains the information that the Sum Insured will be paid for each continuous and completed 24 hours of Hospitalisation for maximum up to 10 consecutive Days of Hospitalisation under Section 28."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "reasoning": "Key point 1: The maximum number of consecutive days of hospitalisation for which the Sum Insured will be paid is mentioned in the context under Section 28: Hospital Daily Cash, found in context. Key point 2: The specific number of days, 10, is also found in context."
+      }
+    }
+  },
+  {
+    "question": "What is the maximum permissible level of radioactive contamination for an aircraft to be covered under this policy?",
+    "answer": "The maximum permissible level of radioactive contamination for an aircraft to be covered under this policy is 4 Becquerels/cm2 for beta, gamma, and low toxicity alpha emitters, and 0.4 Becquerels/cm2 for all other emitters.\n\nThis policy is based on the IAEA Health and Safety Regulations, which specify the maximum permissible levels of non-fixed radioactive surface contamination. The levels are averaged over 300 square centimeters.\n\nFor beta, gamma, and low toxicity alpha emitters, the maximum permissible level is 4 Becquerels/cm2, which is equivalent to 10^-4 microcuries/cm2. For all other emitters, the maximum permissible level is 0.4 Becquerels/cm2.\n\nBottom line: The policy covers aircraft with radioactive contamination levels up to 4 Becquerels/cm2 for certain types of emitters and 0.4 Becquerels/cm2 for all other emitters.",
+    "ground_truth": "The maximum permissible level of radioactive contamination is set out in a scale, but the specific details of this scale are not provided in the given text.",
+    "n_contexts": 2,
+    "faithfulness": 1.0,
+    "answer_relevancy": 1.0,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 1.0,
+        "reasoning": "claim 1: The maximum permissible level of radioactive contamination for an aircraft to be covered under this policy is 4 Becquerels/cm2 for beta, gamma, and low toxicity alpha emitters, and 0.4 Becquerels/cm2 for all other emitters: supported because the Retrieved Context states 'Beta, gamma and low toxicity alpha emitters Not exceeding 4 Becquerels/cm2 (10-4 microcuries/ cm2) All other emitters Not exceeding 0.4 Becquerels/cm2'. claim 2: This policy is based on the IAEA Health and Safety Regulations: supported because the Retrieved Context mentions 'Emitter (IAEA Health and Safety Regulations)'. claim 3: The levels are averaged over 300 square centimeters: supported because the Retrieved Context states 'Maximum permissible level of non -fixed radioactive surface contamination (Averaged over 300 cm2)'. claim 4: For beta, gamma, and low toxicity alpha emitters, the maximum permissible level is 4 Becquerels/cm2, which is equivalent to 10^-4 microcuries/cm2: supported because the Retrieved Context states 'Beta, gamma and low toxicity alpha emitters Not exceeding 4 Becquerels/cm2 (10-4 microcuries/ cm2)'. claim 5: For all other emitters, the maximum permissible level is 0.4 Becquerels/cm2: supported because the Retrieved Context states 'All other emitters Not exceeding 0.4 Becquerels/cm2'. claim 6: The policy covers aircraft with radioactive contamination levels up to 4 Becquerels/cm2 for certain types of emitters and 0.4 Becquerels/cm2 for all other emitters: supported because it is a logical conclusion based on the previous claims."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by providing the specific maximum permissible levels of radioactive contamination for an aircraft to be covered under the policy, including the distinction between different types of emitters and the relevant units of measurement. The answer also provides context and explains the basis for these levels, but this additional information is relevant and does not detract from the direct answer to the question."
+      },
+      "context_precision": {
+        "score": 1.0,
+        "reasoning": "Chunk 1: relevant because it provides the specific details of the maximum permissible level of radioactive contamination, which is the information the question is asking for. Chunk 2: relevant because it also provides the same information as Chunk 1, although it appears to be a duplicate of Chunk 1."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "reasoning": "Key point 1: The maximum permissible level of radioactive contamination is set out in a scale - found in context, specifically for Beta, gamma and low toxicity alpha emitters (Not exceeding 4 Becquerels/cm2) and All other emitters (Not exceeding 0.4 Becquerels/cm2). Key point 2: The specific details of this scale are not provided in the given text - not applicable as the context does provide the specific details."
+      }
+    }
+  },
+  {
+    "question": "What is the date of the PFRDA Circular that allows cancellation/surrender of annuity policies in certain exceptional cases?",
+    "answer": "The PFRDA Circular that allows cancellation/surrender of annuity policies in certain exceptional cases is related to the NPS - Family Income Option.\n\nThis option is available for National Pension System (NPS) subscribers only, and the annuity benefit is paid in accordance with the regulations as prescribed by the Pension Fund Regulatory and Development Authority (PFRDA) and in line with this product as approved by IRDAI.\n\nThe annuity benefit will be payable for the life of the subscriber and their spouse as per Annuity 'Plan Option B with 100% Return of Total Premiums Paid' on a Joint Life basis.\n\nIn case the subscriber wants to cancel or surrender the annuity policy, they can do so in accordance with the PFRDA Circular, but the specific date of the Circular is not mentioned in the provided context.\n\nBottom line: The specific date of the PFRDA Circular that allows cancellation/surrender of annuity policies in certain exceptional cases is not mentioned in the provided context.",
+    "ground_truth": "The PFRDA Circular is dated 24th October, 2024, and its Circular No. is PFRDA/2024/18/SUP-ASP/01.",
+    "n_contexts": 2,
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.0,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 0.5,
+        "reasoning": "claim 1: The PFRDA Circular that allows cancellation/surrender of annuity policies in certain exceptional cases is related to the NPS - Family Income Option: not supported because the context does not mention cancellation/surrender of annuity policies in certain exceptional cases, claim 2: This option is available for National Pension System (NPS) subscribers only, and the annuity benefit is paid in accordance with the regulations as prescribed by the Pension Fund Regulatory and Development Authority (PFRDA) and in line with this product as approved by IRDAI: supported because the context mentions that the option is available for NPS subscribers and the annuity benefit is paid in accordance with PFRDA regulations, claim 3: The annuity benefit will be payable for the life of the subscriber and their spouse as per Annuity 'Plan Option B with 100% Return of Total Premiums Paid' on a Joint Life basis: supported because the context mentions this, claim 4: In case the subscriber wants to cancel or surrender the annuity policy, they can do so in accordance with the PFRDA Circular: not supported because the context does not mention cancellation/surrender of annuity policies in certain exceptional cases, claim 5: The specific date of the PFRDA Circular that allows cancellation/surrender of annuity policies in certain exceptional cases is not mentioned in the provided context: supported because the context does not mention the date of the PFRDA Circular"
+      },
+      "answer_relevancy": {
+        "score": 0.0,
+        "reasoning": "The answer does not provide the specific date of the PFRDA Circular that allows cancellation/surrender of annuity policies in certain exceptional cases, which is the main information requested in the question. Instead, it provides general information about the NPS - Family Income Option and the annuity benefit, but does not address the question directly."
+      },
+      "context_precision": {
+        "score": 0.0,
+        "reasoning": "Chunk 1: not relevant because it does not mention the PFRDA Circular or its date. Chunk 2: not relevant because it is a duplicate of Chunk 1 and does not provide the required information."
+      },
+      "context_recall": {
+        "score": 0.0,
+        "reasoning": "Key point 1: Date of the PFRDA Circular (24th October, 2024) - not found in context. Key point 2: Circular No. of the PFRDA Circular (PFRDA/2024/18/SUP-ASP/01) - not found in context. Key point 3: Exceptional cases for cancellation/surrender of annuity policies - not found in context."
+      }
+    }
+  },
+  {
+    "question": "What is the toll-free number for contacting TATA AIG General Insurance Company Limited?",
+    "answer": "The toll-free number for contacting TATA AIG General Insurance Company Limited is 1800 266 7780.\n\nThis number is mentioned in the policy wordings document on multiple pages, specifically on page 7 and page 10, as the 24X7 Toll free number for the company.\n\nThe number can be used to contact the company for any clarification or assistance, to lodge a complaint, or to report a claim.\n\nBottom line: If you need to contact TATA AIG General Insurance Company Limited, you can call their toll-free number 1800 266 7780.",
+    "ground_truth": "The toll-free number is 1800 266 7780.",
+    "n_contexts": 2,
+    "faithfulness": 1.0,
+    "answer_relevancy": 1.0,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 1.0,
+        "reasoning": "claim 1: The toll-free number for contacting TATA AIG General Insurance Company Limited is 1800 266 7780: supported because it is mentioned in the policy wordings document on multiple pages, specifically on page 7 and page 10, as the 24X7 Toll free number for the company. claim 2: This number can be used to contact the company for any clarification or assistance: supported because the context mentions that the Insured may contact the offices of the Company at the address specified, during normal business hours, and also mentions the toll-free number for customer services. claim 3: The number can be used to lodge a complaint: supported because the context mentions the toll-free number for lodging a complaint in the Customer Grievance Redressal Procedure section. claim 4: The number can be used to report a claim: supported because the context mentions the toll-free number for reporting a claim in the NOTICE OF CLAIM section."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by providing the toll-free number for contacting TATA AIG General Insurance Company Limited, and also provides additional relevant information about the usage of the number, without including any off-topic content."
+      },
+      "context_precision": {
+        "score": 1.0,
+        "reasoning": "Chunk 1: relevant because it contains the toll-free number 1800 266 7780, which matches the ground truth answer. Chunk 2: relevant because it also contains the toll-free number 1800 266 7780, which matches the ground truth answer."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "reasoning": "Key point 1: Toll-free number for contacting TATA AIG General Insurance Company Limited is 1800 266 7780: found in context."
+      }
+    }
+  },
+  {
+    "question": "What is the IRDA of India Registration No. for this Contractors Plant & Machinery Insurance policy?",
+    "answer": "The IRDA of India Registration No. for the Contractors Plant & Machinery Insurance policy is 108.\n\nThe IRDA of India Registration No. is mentioned on the policy document, which is a unique identifier given to insurance companies by the Insurance Regulatory and Development Authority of India (IRDA). This number is used to verify the authenticity of the insurance policy and the insurance company.\n\nThe IRDA of India Registration No. is also mentioned along with the CIN (Corporate Identity Number) and the UIN (Unique Identification Number) for the Contractors Plant & Machinery Insurance policy.\n\nBottom line: The IRDA of India Registration No. for the Contractors Plant & Machinery Insurance policy is 108, which can be used to verify the authenticity of the policy and the insurance company.",
+    "ground_truth": "The IRDA of India Registration No. for this Contractors Plant & Machinery Insurance policy is 108.",
+    "n_contexts": 2,
+    "faithfulness": 0.5,
+    "answer_relevancy": 1.0,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 0.5,
+        "reasoning": "claim 1: The IRDA of India Registration No. for the Contractors Plant & Machinery Insurance policy is 108 - supported because it is mentioned in the Retrieved Context. claim 2: The IRDA of India Registration No. is a unique identifier given to insurance companies by the Insurance Regulatory and Development Authority of India (IRDA) - not supported because the Retrieved Context does not provide this information. claim 3: This number is used to verify the authenticity of the insurance policy and the insurance company - not supported because the Retrieved Context does not provide this information. claim 4: The IRDA of India Registration No. is also mentioned along with the CIN (Corporate Identity Number) and the UIN (Unique Identification Number) for the Contractors Plant & Machinery Insurance policy - supported because it is mentioned in the Retrieved Context."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by providing the IRDA of India Registration No. for the Contractors Plant & Machinery Insurance policy, which is the specific information requested. The additional information provided about the purpose and usage of the IRDA of India Registration No. is relevant and helps to clarify the context, but the answer still directly and completely addresses the question."
+      },
+      "context_precision": {
+        "score": 1.0,
+        "reasoning": "Chunk 1: relevant because it contains the IRDA of India Registration No. 108, which is the answer to the question. Chunk 2: relevant because it also contains the IRDA of India Registration No. 108, which is the answer to the question."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "reasoning": "Key point 1: IRDA of India Registration No. for this Contractors Plant & Machinery Insurance policy is 108: found in context."
+      }
+    }
+  },
+  {
+    "question": "What is the maximum daily limit for intensive care unit (ICU) charges under this policy?",
+    "answer": "There is no mention of the maximum daily limit for intensive care unit (ICU) charges in the provided policy wording.\n\nThe policy does not specify any daily limits for ICU charges, but it does mention a co-payment of 5% applicable to the claim amount admissible.\n\nBottom line: The policy does not specify a maximum daily limit for ICU charges.",
+    "ground_truth": "The maximum daily limit for intensive care unit (ICU) charges is `10,000/-.",
+    "n_contexts": 2,
+    "faithfulness": 1.0,
+    "answer_relevancy": 1.0,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 1.0,
+        "reasoning": "claim 1: The policy does not specify any daily limits for ICU charges - supported because the Retrieved Context does not mention ICU charges at all. claim 2: The policy does mention a co-payment of 5% applicable to the claim amount admissible - supported because the Retrieved Context mentions a Co-payment of 5% applicable to claim amount admissible and payable as per the terms and conditions of the Policy in section 9.3."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by stating that the policy does not specify a maximum daily limit for ICU charges, providing a clear and relevant response to the query."
+      },
+      "context_precision": {
+        "score": 0.0,
+        "reasoning": "Chunk 1: not relevant because it discusses the notification of claim, documents to be submitted, co-payment, and claim settlement, but does not mention the maximum daily limit for ICU charges. Chunk 2: not relevant because it is a duplicate of Chunk 1 and does not provide any additional information about the maximum daily limit for ICU charges."
+      },
+      "context_recall": {
+        "score": 0.0,
+        "reasoning": "Key point 1: Maximum daily limit for ICU charges - not found in context. Key point 2: Amount of the maximum daily limit for ICU charges (`10,000/-) - not found in context."
+      }
+    }
+  },
+  {
+    "question": "What is the IRDA of India Registration No. for Tata AIG General Insurance Company Limited?",
+    "answer": "The IRDA of India Registration No. for Tata AIG General Insurance Company Limited is 108.\n\nThis information is found on the first page of the policy document, where it is listed under the company's details.\n\nBottom line: The IRDA of India Registration No. for Tata AIG General Insurance Company Limited is 108.",
+    "ground_truth": "The IRDA of India Registration No. for Tata AIG General Insurance Company Limited is 108.",
+    "n_contexts": 2,
+    "faithfulness": 1.0,
+    "answer_relevancy": 1.0,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 1.0,
+        "reasoning": "claim 1: The IRDA of India Registration No. for Tata AIG General Insurance Company Limited is 108 - supported because it is explicitly stated in the Retrieved Context on Page 1 and Page 4; claim 2: This information is found on the first page of the policy document, where it is listed under the company's details - supported because the Retrieved Context does contain the IRDA of India Registration No. on the first page under the company's details."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "reasoning": "The answer directly addresses the question by providing the specific IRDA of India Registration No. for Tata AIG General Insurance Company Limited, which is 108, and also mentions where this information can be found, making it a complete and relevant response."
+      },
+      "context_precision": {
+        "score": 1.0,
+        "reasoning": "Chunk 1: relevant because it explicitly mentions the IRDA of India Registration No. for Tata AIG General Insurance Company Limited as 108, which matches the ground truth answer. Chunk 2: relevant because it also mentions the IRDA of India Registration No. for Tata AIG General Insurance Company Limited as 108, which matches the ground truth answer."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "reasoning": "Key point 1: IRDA of India Registration No. for Tata AIG General Insurance Company Limited is 108: found in context."
+      }
+    }
+  },
+  {
+    "question": "What is the regulatory TAT within which the Head of Customer Services will provide the final response?",
+    "answer": "The regulatory TAT (Turnaround Time) within which the Head of Customer Services will provide the final response is not explicitly mentioned in the given context.\n\nThe context provided is a policy document for Contractors Plant & Machinery Insurance, which outlines the terms, exceptions, and conditions of the insurance. It does not mention anything about a regulatory TAT or a specific timeframe for the Head of Customer Services to respond.\n\nHowever, the policy document does mention a 24*7 Customer Support No. and an email address, which suggests that customers can contact the insurance company for assistance at any time.\n\nBottom line: The policy document does not specify a regulatory TAT for the Head of Customer Services to provide a final response.",
+    "ground_truth": "The regulatory TAT within which the Head of Customer Services will provide the final response is not explicitly stated in the text, but it is mentioned that the final response will be provided within the regulatory TAT.",
+    "n_contexts": 2,
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.7,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "reasoning": {
+      "faithfulness": {
+        "score": 0.5,
+        "reasoning": "claim 1: The regulatory TAT (Turnaround Time) within which the Head of Customer Services will provide the final response is not explicitly mentioned in the given context: supported because the context does not mention TAT or a specific timeframe for the Head of Customer Services to respond. claim 2: The context provided is a policy document for Contractors Plant & Machinery Insurance, which outlines the terms, exceptions, and conditions of the insurance: supported because the context is indeed a policy document. claim 3: The policy document does not mention anything about a regulatory TAT or a specific timeframe for the Head of Customer Services to respond: supported because the context does not mention TAT or a specific timeframe. claim 4: The policy document does mention a 24*7 Customer Support No. and an email address, which suggests that customers can contact the insurance company for assistance at any time: supported because the context does mention a 24*7 Customer Support No. and an email address. claim 5: The policy document does not specify a regulatory TAT for the Head of Customer Services to provide a final response: supported because the context does not mention TAT or a specific timeframe."
+      },
+      "answer_relevancy": {
+        "score": 0.7,
+        "reasoning": "The answer is mostly relevant as it acknowledges the question and attempts to provide a response based on the given context. However, it does not directly answer the question as it states that the regulatory TAT is not explicitly mentioned in the context. The additional information about the 24*7 Customer Support No. and email address is somewhat off-topic, but it does suggest that the insurance company is available to assist customers. Overall, the answer is mostly relevant but misses the part where it could have provided a more definitive answer or suggested possible alternatives to find the regulatory TAT."
+      },
+      "context_precision": {
+        "score": 0.0,
+        "reasoning": "Chunk 1: not relevant because it does not mention the regulatory TAT or the Head of Customer Services. Chunk 2: not relevant because it is a duplicate of Chunk 1 and does not provide any additional information about the regulatory TAT or the Head of Customer Services."
+      },
+      "context_recall": {
+        "score": 0.0,
+        "reasoning": "Key point 1: The regulatory TAT within which the Head of Customer Services will provide the final response is not explicitly stated in the text - not found in context. Key point 2: The final response will be provided within the regulatory TAT - not found in context."
+      }
+    }
+  }
+]
